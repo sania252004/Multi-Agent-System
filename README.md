@@ -12,8 +12,8 @@ This project demonstrates how multiple AI agents collaborate using tools, reason
 - Tavily Search Integration
 - Firecrawl Web Scraping
 - ReAct Agent Framework
-- LCEL Runnable Pipelines
 - LangChain Tool Calling
+- Invoke-Based Research Pipeline
 - Streamlit User Interface
 - Rich Terminal Output
 - Modular Code Structure
@@ -26,9 +26,8 @@ This project demonstrates how multiple AI agents collaborate using tools, reason
 
 - Python
 - LangChain
-- LCEL (LangChain Expression Language)
 - Groq API
-- Tavily AI
+- Tavily
 - Firecrawl
 - Streamlit
 - Rich
@@ -55,8 +54,8 @@ How It Works :-
 User enters a research query
 Search Agent searches the web using Tavily
 Scraper Agent extracts webpage content using Firecrawl
-ReAct Agent analyzes and reasons over collected data
-LCEL pipeline processes the workflow
+Writer Agent generates a detailed research report
+Critic Agent reviews and critiques the report
 Final AI-generated research response is displayed
 
 Installation
@@ -97,7 +96,7 @@ FIRECRAWL_API_KEY=your_firecrawl_api_key
 Running the Project ----->
 
 Run with Python
-python app.py
+python pipeline.py
 
 Run with Streamlit
 streamlit run app.py
@@ -108,14 +107,18 @@ Tavily Search Tool - Used for intelligent web searching and retrieval.
 
 Firecrawl - Used for extracting clean webpage content from URLs.
 
-ReAct Agent - Handles reasoning and decision-making using tools.
+Writer Agent - Generates detailed AI-powered research reports.
 
-LCEL Runnable Pipeline - Manages execution flow and orchestration between agents.
+Critic Agent - Reviews and critiques generated reports for quality improvement.
+
+Invoke-Based Pipeline - Manages sequential execution of search, scraping, report generation, and critique workflow.
 
 Groq LLM - Acts as the reasoning engine powering the agents.
 
 Future Improvements --->
 
+Full LCEL Runnable Pipelines
+LangGraph Integration
 Multi-Agent Collaboration Graphs
 PDF Research Report Generation
 Memory Support
@@ -134,12 +137,7 @@ Academic Research Support
 AI Agent Experiments
 LLM Workflow Demonstration
 
-Author
-
-Sania Khandakar
-
-B.Tech CST
+Author ----> Sania Khandakar [B.Tech CST]
 
 License
-
 This project is for educational and research purposes.
