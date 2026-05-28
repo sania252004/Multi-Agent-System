@@ -128,7 +128,7 @@ Streaming Responses
 Source Citation System
 Voice-Based Query Input
 
-Use Cases ;-
+Use Cases :-
 
 AI Research Assistant
 Automated Research Pipelines
